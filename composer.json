@@ -1,0 +1,19 @@
+{
+    "name": "jsc-php/authorization",
+    "description": "Authorization Library",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "JscPhp\\Authorization\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James Cavaliere",
+            "email": "james.cavaliere@gmail.com"
+        }
+    ],
+    "require": {
+      "php": "^8.5",
+    }
+}
