@@ -2,6 +2,9 @@
 
 namespace JscPhp\Authorization\Attr;
 
+use Attribute;
+
+#[Attribute(Attribute::TARGET_METHOD)]
 class Access {
     private string $program;
     private int    $required_access;
